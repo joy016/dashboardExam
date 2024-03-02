@@ -1,0 +1,47 @@
+.transact-main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.transact-heading-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.transact-heading-container label {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 2px;
+}
+
+.transact-list-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.transact-list-container img {
+  width: 50px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-container label {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.text-container-mini-txt {
+  font-size: 12px;
+}

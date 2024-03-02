@@ -1,0 +1,8 @@
+.button-style {
+  border-style: none;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+  font-size: medium;
+}

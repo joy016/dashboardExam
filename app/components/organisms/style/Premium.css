@@ -1,0 +1,16 @@
+.prem-text-label-container {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.prem-subtext-label {
+  font-weight: 300;
+  font-size: 15px;
+  color: #b4b4b8;
+}
+
+.img-crown {
+  width: 50px;
+}

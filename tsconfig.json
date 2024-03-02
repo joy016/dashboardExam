@@ -21,6 +21,25 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "app/components/templates/Dashboard/MainDashboardTemplate.jsx",
+    "app/components/pages/HomePage/Homepage.jsx",
+    "app/components/atoms/Button/Button.jsx",
+    "app/components/organisms/components/Premium.jsx",
+    "app/components/organisms/components/Spending.jsx",
+    "app/components/atoms/Icon/Icon.jsx",
+    "app/components/atoms/Lines/HorizontalLine.jsx",
+    "app/components/atoms/Text/components/Heading.jsx",
+    "app/components/atoms/Text/components/CardHeading.jsx",
+    "app/components/molecules/Card/components/Card.jsx",
+    "app/components/molecules/Header/Header.jsx",
+    "app/components/molecules/SideBar/SideBar.jsx",
+    "app/components/organisms/components/ExpensesList.jsx",
+    "app/components/organisms/CardList/SpendingList.jsx"
+  ],
   "exclude": ["node_modules"]
 }

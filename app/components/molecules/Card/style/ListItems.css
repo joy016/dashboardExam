@@ -1,0 +1,94 @@
+.list-items-container {
+  padding: 20px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #ffffff;
+  border-style: none;
+  border-right: 0.5px solid #b4b4b8;
+}
+
+.items-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.time-label {
+  font-weight: 700;
+  font-size: 20px;
+}
+.date-label {
+  font-weight: 500;
+  font-size: 12px;
+  color: #b4b4b8;
+}
+
+.list-label {
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.time-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.shopping-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.shopping-list-container {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.date-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.divider {
+  border-left: 2px solid #6b6969;
+  height: auto;
+  margin: 0 10px;
+}
+
+.devices-container {
+  display: flex;
+  gap: 10px;
+}
+
+.device {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.device-label {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.checkBox {
+  width: 25px;
+  height: 25px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.grid-item {
+  background-color: #f6f5f5;
+  border-radius: 8px;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

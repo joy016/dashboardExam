@@ -1,0 +1,9 @@
+.dashboard-card-container {
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #FFFFFF;
+  border-style: none;
+}

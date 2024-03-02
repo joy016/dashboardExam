@@ -1,0 +1,94 @@
+.convo-card-container {
+  padding: 20px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #ffffff;
+  border-style: none;
+}
+
+.conversation-container {
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.convo-chat-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  align-self: flex-end;
+}
+
+.convo-chat-container label {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: #387adf;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.convo-chat-container img {
+  width: 30px;
+}
+
+.convo-chat-right-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  align-self: flex-start;
+}
+
+.convo-chat-right-container label {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  background-color: #b4b4b8;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.convo-chat-right-container img {
+  width: 30px;
+}
+
+.textarea-container {
+  position: relative;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  border-style: none;
+  background-color: #f6f5f5;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  gap: 5px;
+}
+
+.btn-send-now {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #387adf;
+  padding: 8px;
+  color: #ffffff;
+  border-radius: 5px;
+  border-style: none;
+}

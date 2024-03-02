@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  /* height: 100vh; */
+  gap: 10px;
+  justify-content: center;
+  background-color: #f6f5f5;
+
+  padding: 5px 20px;
+  width: 100%;
+}
+
+.sidebar-container {
+  width: 5%;
+  background-color: #ffffff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.dashboard-container {
+  padding: 20px;
+  width: 75%;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.center-card {
+  display: flex;
+}
+
+.list-grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.transaction-card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}

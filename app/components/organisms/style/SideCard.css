@@ -1,0 +1,9 @@
+.sidecard-container {
+  width: 25%;
+  background-color: #ffffff;
+  border-radius: 25px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

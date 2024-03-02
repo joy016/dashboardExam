@@ -1,0 +1,31 @@
+.spend-head-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-container {
+    display: flex;
+    gap: 20px
+}
+
+.list-text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.spend-list-text {
+  font-weight: bold;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.spend-list-mini-text {
+  font-weight: 500;
+  font-size: 12px;
+  color: #b4b4b8;
+}
+
+.spending-imgs {
+  width: 40px;
+}
+
