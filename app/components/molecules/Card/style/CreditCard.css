@@ -15,6 +15,7 @@
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
   gap: 15px;
+  height: 100%;
 }
 .logoContainer {
   width: 100%;

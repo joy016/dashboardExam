@@ -1,11 +1,13 @@
-import Header from '../../molecules/Header/Header';
-import DashBoard from '../../templates/Dashboard/MainDashboardTemplate';
-import LastTransactionCard from '../../organisms/components/LastTransactionCard';
-import CreditCard from '../../molecules/Card/components/CreditCard';
-import Statistics from '../../organisms/components/Statistics';
-import CenterContent from '../../organisms/component/CenterContent';
+import Header from "../../molecules/Header/Header";
+import DashBoard from "../../templates/Dashboard/MainDashboardTemplate";
+import LastTransactionCard from "../../organisms/components/LastTransactionCard";
+import CreditCard from "../../molecules/Card/components/CreditCard";
+import Statistics from "../../organisms/components/Statistics";
+import ListItem from "../../molecules/Card/components/ListItem";
+import ConvoCard from "../../molecules/Card/components/ConvoCard";
+import Analytics from "../../organisms/components/Analytics";
 
-import './HomePage.css';
+import "./HomePage.css";
 
 const HomePage = () => {
   return (
@@ -14,19 +16,15 @@ const HomePage = () => {
       <div class="parent">
         <div class="div1">
           <Statistics />
-        </div>
-        <div class="div2">
           <CreditCard />
         </div>
+        <div class="div2">
+          <ListItem />
+          <ConvoCard />
+        </div>
         <div class="div3">
-          <CenterContent/>
-        
-        </div>
-        <div class="div4">
           <LastTransactionCard />
-        </div>
-        <div class="div5">
-          <LastTransactionCard />
+          <Analytics />
         </div>
       </div>
     </DashBoard>

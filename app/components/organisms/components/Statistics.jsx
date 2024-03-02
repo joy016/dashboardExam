@@ -1,10 +1,20 @@
-import Button from '../../atoms/Button/Button';
-import CardHeading from '../../atoms/Text/components/CardHeading';
-import DashBoardCard from './../../molecules/Card/components/DashboardCard';
-import { FaAngleDown } from 'react-icons/fa';
-import { MdArrowUpward } from 'react-icons/md';
+"use client";
+import Button from "../../atoms/Button/Button";
+import CardHeading from "../../atoms/Text/components/CardHeading";
+import DashBoardCard from "./../../molecules/Card/components/DashboardCard";
+import { FaAngleDown } from "react-icons/fa";
+import { MdArrowUpward } from "react-icons/md";
+import { Chart } from "react-google-charts";
 
-import '../style/Statistics.css';
+import "../style/Statistics.css";
+
+const data = [
+  ["Month", "", ""],
+  ["Jan", "$0", 20],
+  ["Dec", "$20", 30],
+  ["Nov", "$40", 40],
+  ["Oct", "$60", 50],
+];
 
 const Statistics = () => {
   return (
@@ -32,15 +42,17 @@ const Statistics = () => {
             </label>
           </div>
           <hr />
-            <div>
-                <MdArrowUpward/>
-                <label className='stat-progress-text'>6%</label>
-            </div>
+          <div>
+            <MdArrowUpward />
+            <label className="stat-progress-text">6%</label>
+          </div>
           <label className="stat-mini-text">
             Always see your earnings updates
           </label>
         </div>
-        <div className="stat-right-container">side 1</div>
+        <div className="stat-right-container">
+          <Chart chartType="Bar" height="200px" data={data} />
+        </div>
       </div>
     </DashBoardCard>
   );
